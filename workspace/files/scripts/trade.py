@@ -70,7 +70,8 @@ def cmd_compare(coin, market):
     with ThreadPoolExecutor(4) as pool:
         rows = list(pool.map(one, EXCHANGES))
     prices = [r["last"] for r in rows if r.get("last")]
-    res = {"ok": True, "coin": coin, "market": market, "fetched_at": exkit.now().isoformat(timespec="seconds"), "rows": rows}
+    res = {"ok": True, "coin": coin, "market": market, "fetched_at": exkit.now().isoformat(timespec="seconds"), "rows": rows,
+           "funding_note": "funding_pct is per funding period (usually 8 hours), in percent; never multiply it."}
     if len(prices) >= 2:
         res["price_spread_pct"] = exkit.rnd((max(prices) / min(prices) - 1) * 100, 3)
     exkit.out(res)

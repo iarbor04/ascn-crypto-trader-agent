@@ -2,7 +2,7 @@
  "agent": "trader",
  "name": "Crypto Trading Assistant",
  "repo": "iarbor04/ascn-crypto-trader-agent",
- "version": "2026-10-13-0b5f8431e267",
+ "version": "2026-10-13-0e59348f60e4",
  "data_root": "files/trader",
  "defaults": "defaults",
  "skills": [
@@ -54,7 +54,7 @@
  },
  "files": {
   "AGENTS.trader-addon.md": "f46d22975b097d21934971a1026470605dcad5339da82a5455d6f98633d7dd5f",
-  "AGENTS.trader-rules.md": "5bc73cb59c0b15f53344335f5ef7cc70ae06ccce5d3871b7ad84800accc8ea58",
+  "AGENTS.trader-rules.md": "54ebba4175701f8daa665491e7ce2b8a7a108ede6c162842294819356df06ce6",
   "IDENTITY.md": "ad834ff907f661ac54fb494b5adab5ea737d5db72e2d0255641e6ed862f94fa6",
   "SOUL.md": "7602d8a3a6475428a7d47c92495e4e6a0e21f784feb1f1021893c917ae5b7e8e",
   "THIRD_PARTY_NOTICES.md": "894422daf034c64b3061ee3b2b4fc0f124644108c5cfb63f5a10584086bfb5c8",
@@ -64,10 +64,10 @@
   "files/scripts/bingx.py": "fa2ef4b35c36834453feb6b7f01d0e3da39287d464ef4582a9a93b53bea9b647",
   "files/scripts/bitget.py": "403b90d5e19c5839489ed2d9bcfddc377c6ef8707543f37e3ce9dda4d7ec9c75",
   "files/scripts/bybit.py": "c327fdc921bdafdf11823a455623612cd7139c7ff6186a896919ad5ae7fd5c02",
-  "files/scripts/exkit.py": "1121e9c23a146f79b772f1659de0551241a3ef17970a88d6db4503a7e4993316",
+  "files/scripts/exkit.py": "080c13ae056651e12bf88e803825ee4db85c6f5c1743a7a8a908a5d881742661",
   "files/scripts/mexc.py": "b71333e519df50004db833230e52535750807a94ba0e8cf9b656461946690747",
   "files/scripts/package.py": "5b84643d5a4cdc756a5dac6ac9691bc6edcd5307bd2a7bb51b501819b9407021",
-  "files/scripts/trade.py": "edd577754007e614b2cec79ae99116ea3579c64ae0cb0413e72a69f98e3b9b34",
+  "files/scripts/trade.py": "8bb837d19a17c6adfe0cdf189e091642fb74807590a47eca665dbc0d774535c9",
   "knowledge/partner.json": "13b3da774b0b9752c3a45c7210519fa55421b008ea031a7da32bdfddc439a426",
   "skills/coin-analysis/SKILL.md": "a2062a851f103ff490e0a268d0f4f95cf3560bd1f443a55cece27de0ebc32909",
   "skills/exchange-onboarding/SKILL.md": "321448064fbabc1664acce2e9db2c7104f7db12608140ad2ea34c4fa37b4aa3d",
@@ -75,6 +75,6 @@
   "skills/portfolio-risk/SKILL.md": "ec7b8ec67170ce8ae9a8e95f7537f5bb1abfa8e907a6f39c64085aa88cae4683",
   "skills/position-guard/SKILL.md": "b1950de4b2adb9f9b66d9fd048f701edc127bee4e45b567040699e3250607daf",
   "skills/trade-journal/SKILL.md": "fb2113926027ea5fdf0b7bd4fe6e6e23269fe156c57635f15aa75e55d0ec823c",
-  "skills/trade-setup/SKILL.md": "67eb61081217bfc5824fe80a2f3c02ef6421a3233730afd15d99d729e7d0a059"
+  "skills/trade-setup/SKILL.md": "c5fe9919fee9c71776b8658ea5ae7cb5a2fda2969c1e82d0a329293eeeafe698"
  }
 }

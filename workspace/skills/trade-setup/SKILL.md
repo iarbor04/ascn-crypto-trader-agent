@@ -10,7 +10,8 @@ description: Builds a trade on the chosen exchange from the user's idea: entry, 
 All commands are `python3 files/scripts/trade.py ...`; `<ex>` is bingx, bitget, mexc or bybit. Output: `files/trader/reports/<date>-<topic>.md` for finished results; in chat the short version.
 
 ### 1. Exchange
-The exchange the user names; otherwise the default; if the coin is not traded there, say so and propose one where it is (`trade.py compare <COIN>`). The order goes only to an exchange that is connected.
+The exchange the user names; otherwise the default; if the coin is not traded there, say so and propose one where it is (`trade.py compare <COIN>`).
+A plan and a preview need no key and no connection: always build them from public prices and the balance the user gives. Only placing the order needs the exchange connected; if it is not, show the full plan and preview first, then explain in 2–3 lines how to connect that exchange, and place after it is connected and the user said yes.
 
 ### 2. Plan
 - Side, coin, entry (market or price), stop. No stop given: propose one from `analyze` (beyond the nearest level, at least 1 ATR away) and say why. Never plan a futures trade without a stop.

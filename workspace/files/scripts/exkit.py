@@ -262,6 +262,8 @@ class Agent:
             a.sort, lambda r: -abs(r["change_pct"] or 0))
         rows.sort(key=key)
         out({"ok": True, "exchange": self.ad.NAME, "market": a.market, "sort": a.sort, "count": len(rows),
+             "funding_note": "funding_pct is the rate for one funding period (usually 8 hours), in percent. Quote it as is, "
+                             "e.g. «−1.49% за 8 часов»; never multiply it into a daily or yearly number.",
              "rows": rows[:a.limit], "fetched_at": now().isoformat(timespec="seconds")})
 
     def analyze(self, a):
