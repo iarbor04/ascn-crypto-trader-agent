@@ -3,7 +3,7 @@
 ## Поля формы
 
 - **name_ru:** Торговый ИИ-помощник для Bybit, BingX, Bitget и MEXC
-- **name_en:** AI Crypto Trading Assistant for Bybit, BingX, Bitget & MEXC
+- **name_en:** AI Trading Bot for Crypto: Bybit, BingX, Bitget & MEXC
 - **slug:** ai-crypto-trading-bot
 - **cat_ru / cat_en:** Крипто, трейдинг / Crypto, Trading
 - **integrations:** Bybit, BingX, Bitget, MEXC
@@ -11,9 +11,9 @@
 - **short_ru:** Торговый ИИ-помощник сразу для четырёх бирж: разбирает монету, считает сделку со стопом и объёмом под ваш риск и выставляет ордер на Bybit, BingX, Bitget или MEXC только после вашего «да».
 - **short_en:** An AI trading assistant for four exchanges at once: analyses a coin, sizes a trade with a stop to fit your risk and places the order on Bybit, BingX, Bitget or MEXC only after your yes.
 - **seo_title_ru:** Торговый бот для Bybit, BingX, Bitget и MEXC с ИИ
-- **seo_title_en:** AI Crypto Trading Bot: Bybit, BingX, Bitget, MEXC
-- **seo_desc_ru:** Торговый бот с ИИ: план сделки со стопом, объём от риска, цена ликвидации, сравнение бирж. Ордер на Bybit, BingX, Bitget и MEXC только после вашего «да».
-- **seo_desc_en:** AI crypto trading bot for Bybit, BingX, Bitget and MEXC: trade plans with a stop, position size from your risk, liquidation price. Orders only after your yes.
+- **seo_title_en:** AI Trading Bot for Bybit, BingX, Bitget & MEXC
+- **seo_desc_ru:** Торговый бот с ИИ для фьючерсов и спота: калькулятор позиции, маржи и ликвидации, план сделки со стопом. Ордер на Bybit, BingX, Bitget и MEXC после вашего «да».
+- **seo_desc_en:** AI trading bot for crypto futures on Bybit, BingX, Bitget, MEXC: position size from your risk, leverage and liquidation calculator. Orders only after your yes.
 
 ## Страница агента (RU)
 
@@ -80,6 +80,8 @@
 
 **Нужно подключать все биржи?** Нет. Подключите только те, на которых торгуете. Разбор монет и планы сделок работают и без подключения.
 
+**Это калькулятор фьючерсов?** Да, и не только. Для торговли фьючерсами помощник считает объём позиции от риска, маржу, плечо и примерную цену ликвидации, а потом может выставить ордер после вашего «да».
+
 **Как считается объём позиции?** От процента риска: если стоп сработает, вы потеряете ровно ту долю депозита, которую задали. Помощник также показывает, не наступит ли ликвидация раньше стопа.
 
 **Что с безопасностью ключей?** Ключ нужен только с правами на чтение и торговлю. Если у ключа есть право вывода, помощник откажется с ним работать.
@@ -88,7 +90,7 @@
 
 ### Headline
 
-**AI crypto trading bot for Bybit, BingX, Bitget and MEXC: every trade with a stop sized to your risk, orders only after your yes**
+**AI trading bot for crypto on Bybit, BingX, Bitget and MEXC: every trade with a stop sized to your risk, orders only after your yes**
 
 One assistant works with four exchanges, so you don't need a separate agent for each. It analyses a coin, compares it across the four exchanges, sizes the position from your risk with the liquidation price, and sends the order only after you confirm.
 
@@ -107,5 +109,7 @@ Trade on its own or on a schedule, withdraw or transfer funds, accept keys with 
 ### FAQ
 
 **Does it trade by itself?** No. Every order needs your yes.
+
+**Is it a leverage and liquidation calculator too?** Yes: every plan shows position size from your risk, margin, leverage and the approximate liquidation price.
 
 **Which exchanges?** Bybit, BingX, Bitget and MEXC, USDT perpetuals and spot. One install covers all four.
