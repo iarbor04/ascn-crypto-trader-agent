@@ -1,0 +1,28 @@
+{
+ "agent": "trader",
+ "name": "Crypto Trading Assistant",
+ "repo": "iarbor04/ascn-crypto-trader-agent",
+ "data_root": "files/trader",
+ "addons": [
+  {
+   "file": "AGENTS.trader-addon.md",
+   "into": "AGENTS.md"
+  },
+  {
+   "file": "AGENTS.trader-rules.md",
+   "into": "AGENTS.md",
+   "position": "top"
+  }
+ ],
+ "legacy": {},
+ "refresh": [],
+ "start": {
+  "profile": "profile/trader-profile.md",
+  "greeting": "Hi! I'm your crypto trading assistant 👋\nI help you trade with a plan: a stop and a size that fit your risk, fewer liquidations, less time at the screen.\nI work with four exchanges in one place — BingX, Bitget, MEXC and Bybit — so you don't need a separate agent for each.\nWhat I can do:\n📊 Show what's moving and compare a coin across the four exchanges\n🔍 Analyse any coin: trend, levels, funding\n🎯 Build a trade: entry, stop, take, size from your risk, liquidation price\n✅ Place the order — only after your «yes»\n🛡️ Watch your positions on every exchange and warn before liquidation\nTo start, three quick questions:\n1. On which exchanges do you already have an account: BingX, Bitget, MEXC, Bybit?\n2. What do you trade: futures, spot or both? Usual leverage?\n3. How much of your balance are you ready to risk on one trade?\nIf you have no account yet, I'll suggest the exchange that fits you best. 🚀",
+  "failed": "Setup isn't finished yet. Write me any message and I'll finish it.",
+  "skill": "exchange-onboarding",
+  "greeting_by_language": {
+   "ru": "Привет! Я твой торговый помощник по крипте 👋\nПомогаю торговать по плану: стоп и размер позиции под твой риск, меньше ликвидаций, меньше времени у графика.\nРаботаю сразу с четырьмя биржами — BingX, Bitget, MEXC и Bybit — в одном месте: отдельный агент на каждую биржу не нужен.\nЧто я умею:\n📊 Покажу, что движется, и сравню монету на четырёх биржах\n🔍 Разберу любую монету: тренд, уровни, фандинг\n🎯 Соберу сделку: вход, стоп, тейк, объём под твой риск, цена ликвидации\n✅ Выставлю ордер — только после твоего «да»\n🛡️ Буду следить за позициями на всех биржах и предупрежу до ликвидации\nДля старта три коротких вопроса:\n1. На каких биржах у тебя уже есть аккаунт: BingX, Bitget, MEXC, Bybit?\n2. Что торгуешь: фьючерсы, спот или всё вместе? Какое обычно плечо?\n3. Каким процентом баланса готов рискнуть в одной сделке?\nЕсли аккаунта пока нет — подскажу, какая биржа подойдёт тебе лучше. 🚀"
+  }
+ }
+}

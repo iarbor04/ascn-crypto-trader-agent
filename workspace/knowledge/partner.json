@@ -1,0 +1,30 @@
+{
+ "bingx": {
+  "referral_link": "",
+  "referral_code": "",
+  "broker_code": "",
+  "disclosure": "Это партнёрская ссылка ASCN: если зарегистрируешься по ней, ASCN получит часть комиссии биржи, для тебя условия не меняются.",
+  "header": "X-SOURCE-KEY"
+ },
+ "bitget": {
+  "referral_link": "",
+  "referral_code": "",
+  "broker_code": "",
+  "disclosure": "Это партнёрская ссылка ASCN: если зарегистрируешься по ней, ASCN получит часть комиссии биржи, для тебя условия не меняются.",
+  "header": "X-CHANNEL-API-CODE"
+ },
+ "mexc": {
+  "referral_link": "",
+  "referral_code": "",
+  "broker_code": "",
+  "disclosure": "Это партнёрская ссылка ASCN: если зарегистрируешься по ней, ASCN получит часть комиссии биржи, для тебя условия не меняются.",
+  "header": "source"
+ },
+ "bybit": {
+  "referral_link": "",
+  "referral_code": "",
+  "broker_code": "",
+  "disclosure": "Это партнёрская ссылка ASCN: если зарегистрируешься по ней, ASCN получит часть комиссии биржи, для тебя условия не меняются.",
+  "header": "Referer"
+ }
+}
